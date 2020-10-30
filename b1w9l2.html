@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>opdracht-1</title>
+</head>
+<body>
+	<script>
+
+function berekening(){
+document.write(getal1 + getal2);
+}
+
+var getal1 = 0
+var getal2 = 1
+var getal3 = "0"
+document.write(getal3 + getal2);
+
+for(var i = 1; i <= 20; i++){
+	berekening();
+	var uitkomst = getal1 + getal2
+	var getal1 = getal2
+	var getal2 = uitkomst
+}
+	</script>
+</html>
